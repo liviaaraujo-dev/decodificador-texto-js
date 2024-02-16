@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <a href="">
+          <img src="./assets/images/logo.png" alt="Logo" class="logo"/>
+        </a>
+
+        <div class="request">
+            <textarea placeholder="Digite seu texto"></textarea>
+            
+            <div>
+              <div class="information">
+                  <img src="./assets/images/bi_exclamation-circle-fill.svg" alt="Icone" />
+                  <p>Apenas letras minúsculas e sem acento.</p>
+              </div>
+              
+              <div class="box-buttons">
+                  <button class="primary-button" onclick="encrypt()">Criptografar</button>
+                  <button class="secondary-button" onclick="decrypt()">Descriptografar</button>
+              </div>
+
+            </div>
+        </div>
+      </div>
+      <div class="response-none">
+        <img src="./assets/images/person.jpg" alt="Pessoa analisando">
+        <span>Nenhuma mensagem encontrada</span>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
