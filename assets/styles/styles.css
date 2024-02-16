@@ -136,12 +136,14 @@ textarea:focus {
   border-radius: 2rem;
   padding: 2rem;
   height: 93vh;
+  text-align: left;
 }
 
 .response p {
   color: var(--gray-400);
   font-size: 24px;
   line-height: 36px;
+  text-align: left;
 }
 
 @media (max-width: 500px) {
