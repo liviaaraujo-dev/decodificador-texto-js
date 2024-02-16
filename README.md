@@ -1,8 +1,8 @@
 # Trakor
 
-Desafio do Oracle Next Education + Alura, em que foi proposto construir um codificador de texto<br>
+Desafio do Oracle Next Education + Alura, em que foi proposto construir um decodificador de texto<br>
 
-Clique no link para visualizar o projeto
+Clique no link para visualizar o projeto<br>
 <https://liviaaraujo-dev.github.io/decodificador-texto-js/>
 
 ## Tecnologias
